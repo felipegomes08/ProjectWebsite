@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.fullscreen {
+  height: 100%;
+  width: 100%;
+  background: #fafbfd;
+  font-family: "Josefin Sans", sans-serif;
+}
+.header {
+  height: 5rem;
+  width: 100%;
+  background: rgb(203, 5, 5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-header {
+  font-weight: bold;
+  font-size: 30px;
+  color: #fafbfd;
+  list-style: none;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.title-header:hover {
+  transform: scale(1.1);
+  color: #b6fba1;
+}
+.full-header {
+  width: 100%;
+  height: 100vh;
+}
+.img-background {
+  width: 100%;
+  height: 100%;
+  background: url("./images/spaghetti.jpg");
+  position: relative;
+}
+.main-title {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.title-h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fafbfd;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+.div-aboutus {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-us {
+  font-size: 60px;
+  background: -webkit-linear-gradient(rgb(0, 136, 25), rgb(181, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.content-aboutus {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  padding: 0px 5rem;
+}
+.description-aboutus,
+.slide {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-aboutus {
+  text-align: center;
+  font-size: 20px;
+}
