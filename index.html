@@ -19,43 +19,40 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   </head>
 
   <body class="fullscreen">
     <div class="full-header">
       <div class="header">
-        <img
+        <a href="#"><img
           src="./images/RP-logo.png"
           height="100%"
           style="margin-left: 2rem"
-        />
+        /></a>
         <div class="links">
-          <a
-            href="https://www.w3schools.com/css/css_font_size.asp"
-            class="title-header"
-            >Home</a
-          >
-          <a class="title-header">Menu</a>
-          <a class="title-header">About Us</a>
-          <a class="title-header">Contact</a>
+          <a href="#" class="title-header">Home</a>
+          <a href="#Menu" class="title-header">Menu</a>
+          <a href="#aboutUs" class="title-header">About Us</a>
+          <a href="#contact" class="title-header">Contact</a>
         </div>
         <div>
-          <button
+          <a href="https://instagram.com/ruotolosposto?igshid=YmMyMTA2M2Y="><button
             type="button"
             class="btn btn-success"
             style="margin-right: 2rem; font-weight: bold"
           >
             View More
-          </button>
+          </button></a>
         </div>
       </div>
       <div class="img-background">
         <div class="main-title">
-          <h1 class="title-h1">title_example</h1>
+          <h1 class="title-h1">Ruotolo's Posto</h1>
         </div>
       </div>
       <div class="div-aboutus">
-        <h1 class="about-us">About Us</h1>
+        <h1 id="aboutUs" class="about-us">About Us</h1>
       </div>
       <div class="content-aboutus">
         <div class="description-aboutus">
@@ -68,7 +65,7 @@
             cellar with more than 100 of the best wine labels in the world.
             <br />
 
-            Nome Restaurante is a place with a big table, loud conversation and
+            Ruotolo's Posto is a place with a big table, loud conversation and
             rosy cheeks. Come live moments of joy at the table with your family,
             your friends and your loves.
           </p>
@@ -113,7 +110,7 @@
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://revistamenu.com.br/wp-content/uploads/2021/12/vastosp.jpg"
+                  src="./images/Slide2.jpeg"
                   class="d-block w-100"
                   style="height: 100%"
                   alt=""
@@ -121,7 +118,7 @@
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://revistamenu.com.br/wp-content/uploads/2021/12/vastosp.jpg"
+                  src="./images/Slide3.jpeg"
                   class="d-block w-100"
                   style="height: 100%"
                   alt="\"
@@ -156,7 +153,7 @@
         </div>
       </div>
       <div class="div-aboutus">
-        <h1 class="about-us">Menu</h1>
+        <h1 id="Menu" class="about-us">Menu</h1>
       </div>
       <div>
         <div class="container">
@@ -164,22 +161,25 @@
             <div class="col d-flex" style="justify-content: center">
               <div class="card" style="width: 18rem">
                 <img
-                  src="https://s2.glbimg.com/wMQRG2vmN_dDJ-1HrSwGOKEbZak=/0x0:1080x608/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/e/n/G9IuruRaezxqgmwozOyg/capa-materia-gshow-49-.png"
+                  style="height: 10rem"
+                  src="./images/Appetizers.jpeg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-weight: bold">
+                    Appetizers
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Small and on point dishes to open up your appetite.
                   </p>
                   <br />
                   <button
                     type="button"
                     class="btn btn-success"
+                    style="font-weight: bold"
                     data-bs-toggle="modal"
-                    data-bs-target="#modalOne"
+                    data-bs-target="#modalAppetizers"
                   >
                     View more
                   </button>
@@ -189,22 +189,25 @@
             <div class="col d-flex" style="justify-content: center">
               <div class="card" style="width: 18rem">
                 <img
-                  src="https://s2.glbimg.com/wMQRG2vmN_dDJ-1HrSwGOKEbZak=/0x0:1080x608/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/e/n/G9IuruRaezxqgmwozOyg/capa-materia-gshow-49-.png"
+                  style="height: 10rem"
+                  src="./images/AdultDrinks.jpeg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-weight: bold">
+                    Adult Drinks
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    The best quality of drinks and wines for you to flavor.
                   </p>
                   <br />
                   <button
                     type="button"
                     class="btn btn-success"
+                    style="font-weight: bold"
                     data-bs-toggle="modal"
-                    data-bs-target="#modalOne"
+                    data-bs-target="#modalAdultDrinks"
                   >
                     View more
                   </button>
@@ -214,22 +217,26 @@
             <div class="col d-flex" style="justify-content: center">
               <div class="card" style="width: 18rem">
                 <img
-                  src="https://s2.glbimg.com/wMQRG2vmN_dDJ-1HrSwGOKEbZak=/0x0:1080x608/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/e/n/G9IuruRaezxqgmwozOyg/capa-materia-gshow-49-.png"
+                  style="height: 10rem"
+                  src="./images/MainCourse.jpeg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-weight: bold">
+                    Main Course
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Our major dishes, cooked and prepared with the greatest
+                    effort.
                   </p>
                   <br />
                   <button
                     type="button"
                     class="btn btn-success"
+                    style="font-weight: bold"
                     data-bs-toggle="modal"
-                    data-bs-target="#modalOne"
+                    data-bs-target="#modalMainCourse"
                   >
                     View more
                   </button>
@@ -243,22 +250,22 @@
             <div class="col d-flex" style="justify-content: center">
               <div class="card" style="width: 18rem">
                 <img
-                  src="https://s2.glbimg.com/wMQRG2vmN_dDJ-1HrSwGOKEbZak=/0x0:1080x608/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/e/n/G9IuruRaezxqgmwozOyg/capa-materia-gshow-49-.png"
-                  class="card-img-top"
+                  style="height: 10rem"
+                  src="./images/Sides.jpeg"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-weight: bold">Sides</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    The perfect small dish to go along with your main course.
                   </p>
                   <br />
                   <button
                     type="button"
                     class="btn btn-success"
+                    style="font-weight: bold"
                     data-bs-toggle="modal"
-                    data-bs-target="#modalOne"
+                    data-bs-target="#modalSides"
                   >
                     View more
                   </button>
@@ -268,22 +275,25 @@
             <div class="col d-flex" style="justify-content: center">
               <div class="card" style="width: 18rem">
                 <img
-                  src="https://s2.glbimg.com/wMQRG2vmN_dDJ-1HrSwGOKEbZak=/0x0:1080x608/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/e/n/G9IuruRaezxqgmwozOyg/capa-materia-gshow-49-.png"
+                  style="height: 10rem"
+                  src="./images/Kids.jpeg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-weight: bold">
+                    Kids Menu
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Small portions of the best for the little ones.
                   </p>
                   <br />
                   <button
                     type="button"
                     class="btn btn-success"
+                    style="font-weight: bold"
                     data-bs-toggle="modal"
-                    data-bs-target="#modalOne"
+                    data-bs-target="#modalKidsMenu"
                   >
                     View more
                   </button>
@@ -293,22 +303,23 @@
             <div class="col d-flex" style="justify-content: center">
               <div class="card" style="width: 18rem">
                 <img
-                  src="https://s2.glbimg.com/wMQRG2vmN_dDJ-1HrSwGOKEbZak=/0x0:1080x608/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/e/n/G9IuruRaezxqgmwozOyg/capa-materia-gshow-49-.png"
+                  style="height: 10rem"
+                  src="./images/Desserts.jpeg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title" style="font-weight: bold">Desserts</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Sweetish meals, to finish up the best way possible.
                   </p>
                   <br />
                   <button
                     type="button"
                     class="btn btn-success"
+                    style="font-weight: bold"
                     data-bs-toggle="modal"
-                    data-bs-target="#modalOne"
+                    data-bs-target="#modalDesserts"
                   >
                     View more
                   </button>
@@ -318,26 +329,52 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid bg-success mt-5" style="height: 20rem">
-        <div class="row">
-          <div class="col d-flex" style="justify-content: center"></div>
-          <div class="col d-flex" style="justify-content: center"></div>
-          <div class="col d-flex" style="justify-content: center"></div>
+      <div
+        id="contact"
+        class="container-fluid bg-success mt-5 d-flex"
+        style="align-items: center; height: 20rem; width: 100%"
+      >
+        <div class="row d-flex" style="heigth: 100%; width: 100%">
+          <div
+            class="col d-flex"
+            style="
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              heigth: 100%;
+            "
+          >
+            <a href="#" class="title-header mb-3">Home</a>
+            <a href="#Menu" class="title-header mb-3">Menu</a>
+            <a href="#aboutUs" class="title-header mb-3">About Us</a>
+            <a href="#contact" class="title-header mb-3">Contact</a>
+          </div>
+          <div class="col d-flex" style="justify-content: center; align-items: center">
+            <a id="insta" style="text-decoration:none;list-style:none;display: flex;justify-content: center; align-items: center" href="https://instagram.com/ruotolosposto?igshid=YmMyMTA2M2Y="><p style="font-weight: bold; color: #FFF">Acess now</p>
+            <img src="./images/insta.png" height="50px" /></a>
+          </div>
         </div>
       </div>
+      <div class="bg-dark d-flex" style="height: 1rem; justify-content: center; align-items: center; color: #FFF; font-size: 11px;">®made by Isaac Bomtempo participation of Felipe Gomes(Web Developer)</div>
     </div>
-    <!-- *********************** MODAIS ******************* -->
+    <!-- *********************** modalAppetizers ******************* -->
     <div
       class="modal fade"
-      id="modalOne"
+      id="modalAppetizers"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <div class="modal-header bg-success">
+            <h5
+              class="modal-title"
+              style="color: white; font-weight: bold"
+              id="exampleModalLabel"
+            >
+              Appetizers
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -345,16 +382,501 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">...</div>
-          <div class="modal-footer">
+          <div class="modal-body">
+            <p style="font-weight: bold">
+              Pizzette...............................................................................
+              $6.99
+            </p>
+            <p>Small version of pizza for a light meal</p>
+            <br />
+            <p style="font-weight: bold">
+              Caprese
+              Salad...............................................................................
+              $5.99
+            </p>
+            <p>
+              A small salad that is made of olive oil, basil, tomatoes, and
+              mozzarella
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Fritto
+              Misto...............................................................................
+              $8.99
+            </p>
+            <p>A plate composed of shrinp,squid. baby mullet, and vegetbale</p>
+            <br />
+            <p style="font-weight: bold">
+              Bruschetta...............................................................................
+              $4.99
+            </p>
+            <p>
+              grilled bread rubbed with garlic and topped with olive oil and
+              salt
+            </p>
+          </div>
+          <div class="modal-footer bg-danger">
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-success"
               data-bs-dismiss="modal"
             >
               Close
             </button>
-            <button type="button" class="btn btn-success">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *********************** modalAdultDrinks ******************* -->
+    <div
+      class="modal fade"
+      id="modalAdultDrinks"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success">
+            <h5
+              class="modal-title"
+              style="color: white; font-weight: bold"
+              id="exampleModalLabel"
+            >
+              Adult Drinks
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p style="font-weight: bold">
+              Negroni...............................................................................
+              $8.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Campari...............................................................................
+              $6.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Vermouth...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Amaretto...............................................................................
+              $9.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Grappa...............................................................................
+              $12.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Beer...............................................................................
+              $6.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Italian Red
+              Wine...............................................................................
+              $7.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Limoncello...............................................................................
+              $10.99
+            </p>
+            <br />
+          </div>
+          <div class="modal-footer bg-danger">
+            <button
+              type="button"
+              class="btn btn-success"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *********************** modalMainCourse ******************* -->
+    <div
+      class="modal fade"
+      id="modalMainCourse"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success">
+            <h5
+              class="modal-title"
+              style="color: white; font-weight: bold"
+              id="exampleModalLabel"
+            >
+              Main Course
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p style="font-weight: bold">
+              Spaghetti and
+              Meatballs...............................................................................
+              $16.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Ravioli
+              ...............................................................................
+              $8.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Lasagna...............................................................................
+              $10.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Pizza...............................................................................
+              $10.99
+            </p>
+            <p>Pepporoni-$2,Mushrooms-$2. Onion-$2,Chicken-$2</p>
+            <br />
+            <p style="font-weight: bold">
+              Rissoto...............................................................................
+              $8.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Italian Ribeye
+              Steak...............................................................................
+              $13.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Mustard Marinated
+              Beef...............................................................................
+              $14.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Minestrone...............................................................................
+              $11.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Tortellini...............................................................................
+              $12.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Parmigiana...............................................................................
+              $13.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Amatriciana...............................................................................
+              $10.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Frittata...............................................................................
+              $13.99
+            </p>
+            <br />
+          </div>
+          <div class="modal-footer bg-danger">
+            <button
+              type="button"
+              class="btn btn-success"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *********************** modalSides ******************* -->
+    <div
+      class="modal fade"
+      id="modalSides"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success">
+            <h5
+              class="modal-title"
+              style="color: white; font-weight: bold"
+              id="exampleModalLabel"
+            >
+              Sides
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p style="font-weight: bold">
+              Steak
+              Fries...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Salad
+              ...............................................................................
+              $4.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Creamy
+              Polenta...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Caponata alla
+              Siciliana...............................................................................
+              $6.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Tuscan Focaccia
+              Bread...............................................................................
+              $3.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Breadsticks...............................................................................
+              $2.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Perfect Grilled
+              Eggplant...............................................................................
+              $3.99
+            </p>
+            <br />
+          </div>
+          <div class="modal-footer bg-danger">
+            <button
+              type="button"
+              class="btn btn-success"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *********************** modalKidsMenu ******************* -->
+    <div
+      class="modal fade"
+      id="modalKidsMenu"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success">
+            <h5
+              class="modal-title"
+              style="color: white; font-weight: bold"
+              id="exampleModalLabel"
+            >
+              Kids Menu
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p style="font-weight: bold">
+              Grandma's
+              Meatballs...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Super Spaghetti
+              ...............................................................................
+              $8.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Cheese
+              Pizza...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Pepperoni
+              Pizza...............................................................................
+              $6.99
+            </p>
+            <br />
+            <p style="font-weight: bold; font-size: 20px">Drinks</p>
+            <br />
+            <p style="font-weight: bold">
+              Coke
+              ...............................................................................
+              $5.00
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Sprite
+              ...............................................................................
+              $5.00
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Apple Juice
+              ...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Orange
+              Juice...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Vanilla
+              Milkshake...............................................................................
+              $4.00
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Chocolate
+              Milkshake...............................................................................
+              $5.00
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Strawberry
+              Milkshake...............................................................................
+              $4.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Smoothie...............................................................................
+              $3.99
+            </p>
+            <br />
+          </div>
+          <div class="modal-footer bg-danger">
+            <button
+              type="button"
+              class="btn btn-success"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *********************** modalDesserts ******************* -->
+    <div
+      class="modal fade"
+      id="modalDesserts"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success">
+            <h5
+              class="modal-title"
+              style="color: white; font-weight: bold"
+              id="exampleModalLabel"
+            >
+              Desserts
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p style="font-weight: bold">
+              Pasteria
+              ...............................................................................
+              $7.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Sfogliatella
+              ...............................................................................
+              $8.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Granita
+              ...............................................................................
+              $7.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Cannoli...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Panna
+              cotta...............................................................................
+              $4.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Nougate...............................................................................
+              $5.99
+            </p>
+            <br />
+            <p style="font-weight: bold">
+              Tiramisu...............................................................................
+              $9.99
+            </p>
+            <br />
+          </div>
+          <div class="modal-footer bg-danger">
+            <button
+              type="button"
+              class="btn btn-success"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>

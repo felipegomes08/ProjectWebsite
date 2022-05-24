@@ -217,3 +217,9 @@ table {
   text-align: center;
   font-size: 20px;
 }
+#insta{
+  transition: 0.5s;
+}
+#insta:hover{
+  transform:scale(1.1);
+}
